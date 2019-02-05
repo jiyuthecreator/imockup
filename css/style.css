@@ -1,0 +1,114 @@
+/*
+html, body {
+	/* The image/color used *
+	background-color:#212D40;
+	/* Full height *
+	height: 100%;
+	/* Center and scale image if applicable *
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	/* Center text *
+	text-align: center;
+}
+*/
+
+/* 
+Google Fonts
+*/
+.raleway{
+	font-family: 'Raleway', sans-serif;
+}
+.crimsontext{
+	font-family: 'Crimson Text', serif;
+}
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-family: Graphik Light;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+button{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Color palette - OMSIM Wellness */
+.white{
+	color: #FFFFFF;
+}
+.afwhite{
+	color: #EDF1F2;
+}
+.turquoisesurf{
+	color: #12BDD0;
+}
+.paradisepink{
+	color: #DB426B;
+}
+.taupegray{
+	color: #898D8E;
+}
+.blackolive{
+	color: #393C41;
+	text-color: #393C41;
+}
+.bg-white {
+  background-color: #FFFFFF !important;
+}
+.bg-afwhite {
+  background-color: #EDF1F2 !important;
+}
+.bg-turquoisesurf {
+  background-color: #12BDD0 !important;
+}
+.bg-paradisepink {
+  background-color: #DB426B !important;
+}
+.bg-taupegray {
+  background-color: #898D8E !important;
+}
+.bg-blackolive {
+  background-color: #393C41 !important;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #12BDD0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #FFFFFF;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed 
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+*/
